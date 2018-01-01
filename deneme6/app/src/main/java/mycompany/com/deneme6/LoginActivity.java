@@ -27,7 +27,7 @@ import java.util.List;
 import mycompany.com.deneme6.adapter.BuildingAdapter;
 import mycompany.com.deneme6.model.Building;
 
-public class LoginActivity extends AppCompatActivity implements ItemClickListener{
+public class LoginActivity extends AppCompatActivity implements ItemClickListener, View.OnClickListener {
     //public abstract class LoginActivity extends AppCompatActivity implements ItemClickListener, View.OnClickListener {
 
     public static final String BUILDING_NAME = "mycompany.com.deneme6.customername";
